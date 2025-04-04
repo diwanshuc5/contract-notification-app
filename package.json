@@ -1,0 +1,23 @@
+{
+  "name": "contract-notification-app",
+  "version": "1.0.0",
+  "description": "Key features of this project:\r * This project will allow user to login and register to contract-notification-app.\r * User can add new contract, edit contract and upload contract pdf.\r * User will receive timely notification if their contract is about to expire.\r * This project uses docker for smooth deployment, Amazon RDS as DB, Express.js, AWS SNS & SQS for notications, AWS Lambda function, AWS S3 for file storage and cron jobs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwanshuc5/contract-notification-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwanshuc5/contract-notification-app/issues"
+  },
+  "homepage": "https://github.com/diwanshuc5/contract-notification-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
